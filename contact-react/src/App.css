@@ -1,0 +1,193 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #0a0a0a;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  background-color: #0cd1a7;
+  border-radius: 5px;
+}
+
+/* Contact Information Section */
+.contact-info {
+  max-width: 450px;
+  margin-right: 50px; /* Space between the contact info and the form */
+}
+
+.contact-info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #b0b0b0;
+}
+
+/* Chat and Call sections */
+.chat, .call {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chat-icon, .call-icon {
+  font-size: 1.8rem;
+  margin-right: 15px;
+  color: #00ffc3;
+}
+
+.email, .phone {
+  color: #00ffc3;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.email:hover, .phone:hover {
+  color: #00bfa5;
+}
+
+.call p {
+  margin: 5px 0;
+  color: #b0b0b0;
+}
+
+.chat p, .call p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #b0b0b0;
+}
+
+.chat .email, .call .phone {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Form Section */
+.form-section {
+  flex-grow: 1;
+  max-width: 500px;
+}
+
+form {
+  background-color: #151515;
+  padding: 30px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
+form textarea {
+  min-height: 150px;
+}
+
+form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #00ffc3;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background-color: #00bfa5;
+}
+
+/* Error and Success Messages */
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.success-message {
+  color: green;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a0a0a;
+  color: #fff;
+  margin-top: 350px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #0cd1a7;
+  text-decoration: none;
+  font-size: 18px;
+}
